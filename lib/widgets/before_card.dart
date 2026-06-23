@@ -49,7 +49,7 @@ class BeforeCard extends StatelessWidget {
                 ),
                 const SizedBox(height: 4),
                 Text(
-                  '${group.tailleGroupe} personnes • ${group.agesLabel} ans',
+                  '${group.tailleGroupe} ${group.tailleGroupe > 1 ? 'personnes' : 'personne'} • ${group.agesLabel} ans',
                   style: const TextStyle(color: BizzColors.textSecondary, fontSize: 13),
                 ),
                 const SizedBox(height: 12),
